@@ -6,28 +6,30 @@ export function Footer() {
   return (
     <footer className="border-t border-slate-200 bg-slate-50 text-slate-900">
       <div className="container px-4 py-12 mx-auto">
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-          <div>
-            <div className="flex items-center mb-4 space-x-2">
-              <HardHat size={32} className="text-blue-400" />
-              <span className="text-2xl font-bold">Meridian Transconstruct</span>
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-10">
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
+            <div>
+              <div className="flex items-center mb-4 space-x-2">
+                <HardHat size={32} className="text-blue-400" />
+                <span className="text-2xl font-bold">Meridian Transconstruct</span>
+              </div>
+              <p className="max-w-sm leading-relaxed text-slate-600">
+                Construim excelență, oferim încredere.
+              </p>
             </div>
-            <p className="max-w-sm leading-relaxed text-slate-600">
-              Construim excelență, oferim încredere.
-            </p>
+
+            <div>
+              <h3 className="mb-4 text-lg font-semibold">Navigare</h3>
+              <ul className="space-y-2">
+                <li><Link to="/" className="transition-colors text-slate-600 hover:text-blue-600">Acasă</Link></li>
+                <li><Link to="/servicii" className="transition-colors text-slate-600 hover:text-blue-600">Servicii</Link></li>
+                <li><Link to="/proiecte" className="transition-colors text-slate-600 hover:text-blue-600">Proiecte</Link></li>
+                <li><Link to="/contact" className="transition-colors text-slate-600 hover:text-blue-600">Contact</Link></li>
+              </ul>
+            </div>
           </div>
-          
-          <div>
-            <h3 className="mb-4 text-lg font-semibold">Navigare</h3>
-            <ul className="space-y-2">
-              <li><Link to="/" className="transition-colors text-slate-600 hover:text-blue-600">Acasă</Link></li>
-              <li><Link to="/servicii" className="transition-colors text-slate-600 hover:text-blue-600">Servicii</Link></li>
-              <li><Link to="/proiecte" className="transition-colors text-slate-600 hover:text-blue-600">Proiecte</Link></li>
-              <li><Link to="/contact" className="transition-colors text-slate-600 hover:text-blue-600">Contact</Link></li>
-            </ul>
-          </div>
-          
-          <div>
+
+          <div className="lg:pl-6 lg:border-l lg:border-slate-200">
             <h3 className="mb-4 text-lg font-semibold">Date firmă</h3>
             <ul className="space-y-2 leading-relaxed text-slate-600">
               <li>Telefon: +40 723 400 646 / +40 726 379 408</li>
