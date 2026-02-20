@@ -17,6 +17,10 @@ export function Header() {
                 <span>+40 723 400 646</span>
               </div>
               <div className="flex items-center space-x-2">
+                <Phone size={16} className="text-blue-400" />
+                <span>+40 726 379 408</span>
+              </div>
+              <div className="flex items-center space-x-2">
                 <Mail size={16} className="text-blue-400" />
                 <span>marta70fil@yahoo.com</span>
               </div>
@@ -34,7 +38,7 @@ export function Header() {
               <HardHat size={32} className="text-blue-400" />
               <span className="text-xl font-black tracking-wide md:text-2xl">MERIDIAN TRANSCONSTRUCT</span>
             </NavLink>
-            <div className="flex flex-wrap items-center gap-4 text-sm font-semibold md:gap-8 md:text-base">
+            <div className="flex flex-wrap items-center gap-5 text-base font-semibold md:gap-9 md:text-lg">
               <NavLink to="/" className={navItemClass}>Acasă</NavLink>
               <NavLink to="/servicii" className={navItemClass}>Servicii</NavLink>
               <NavLink to="/proiecte" className={navItemClass}>Proiecte</NavLink>

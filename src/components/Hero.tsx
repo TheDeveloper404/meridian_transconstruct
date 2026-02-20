@@ -12,17 +12,17 @@ export function Hero() {
     >
       <div className="absolute inset-0 bg-gradient-to-r from-slate-900/85 via-slate-800/60 to-blue-900/35" />
       <div className="container relative flex items-center px-4 py-24 mx-auto min-h-[78vh]">
-        <div className="max-w-3xl">
+        <div className="max-w-3xl mx-auto text-center">
           <p className="inline-flex px-4 py-2 mb-6 text-sm font-semibold tracking-wider uppercase rounded-full bg-blue-500/20 text-blue-200 ring-1 ring-blue-300/30">
             Construcții civile și comerciale
           </p>
           <h1 className="mb-6 text-4xl font-black leading-tight md:text-6xl">
             Construim excelență, oferim încredere.
           </h1>
-          <p className="max-w-2xl mb-10 text-lg text-slate-200 md:text-xl">
+          <p className="max-w-2xl mx-auto mb-10 text-lg text-slate-200 md:text-xl">
             De la fundație la finisaj, livrăm proiecte complete cu atenție la detaliu, respect pentru buget și termene clare.
           </p>
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-wrap justify-center gap-4">
             <Link to="/contact" className="px-8 py-3 font-semibold text-white transition-colors bg-blue-600 rounded-md hover:bg-blue-500">
               Haide să discutăm!
             </Link>

@@ -31,6 +31,7 @@ export function Contact() {
                 <div>
                   <h4 className="text-lg font-semibold">Telefon</h4>
                   <p className="text-slate-600">+40 723 400 646</p>
+                  <p className="text-slate-600">+40 726 379 408</p>
                 </div>
               </div>
 
