@@ -4,49 +4,56 @@ import { Building2, HomeIcon, Wrench, PaintBucket, Ruler } from 'lucide-react';
 const services = [
   {
     icon: Building2,
-    title: 'Constructii Comerciale',
-    description: 'Proiecte de clădiri comerciale la scară largă, de la sol până la finisaje.'
+    title: 'Construcții comerciale',
+    description: 'Ridicăm și modernizăm clădiri comerciale funcționale, de la structură la predare.'
   },
   {
     icon: HomeIcon,
-    title: 'Constructii rezidentiale',
-    description: 'Constructii de case la comanda si proiecte majore de constructii rezidentiale.'
+    title: 'Construcții rezidențiale',
+    description: 'Executăm case și ansambluri rezidențiale cu accent pe durabilitate și confort.'
   },
   {
     icon: Wrench,
     title: 'Renovări',
-    description: 'Servicii complete de renovare și remodelare pentru toate tipurile de proprietate.'
+    description: 'Transformăm spații existente prin renovări complete, rapide și curate.'
   },
   {
     icon: PaintBucket,
-    title: 'Finisaj interior',
-    description: 'Lucrări experte de finisare interioară, inclusiv vopsire și decorare.'
+    title: 'Finisaje interioare',
+    description: 'Executăm finisaje premium, de la pregătirea suportului la ultimul strat decorativ.'
   },
   {
     icon: Ruler,
-    title: 'Planificarea Proiectului',
-    description: 'Planificare cuprinzătoare de proiect și consultanță arhitecturală.'
+    title: 'Planificare proiect',
+    description: 'Pregătim etapele tehnice și logistice pentru o execuție eficientă și predictibilă.'
   }
 ];
 
 export function Services() {
   return (
-    <section id="services" className="py-20 bg-gray-50">
+    <section id="services" className="py-20 bg-slate-950">
       <div className="container px-4 mx-auto">
         <div className="mb-16 text-center">
-          <h2 className="mb-4 text-4xl font-bold">Serviciile noastre</h2>
-          <p className="max-w-2xl mx-auto text-gray-600">
-          Oferim o gamă cuprinzătoare de servicii de construcție și renovare pentru a satisface toate nevoile dvs. de clădire.
+          <p className="mb-3 text-sm font-semibold tracking-[0.18em] uppercase text-amber-400">Servicii</p>
+          <h2 className="mb-4 text-3xl font-bold md:text-4xl">Tot ce ai nevoie pentru un proiect complet</h2>
+          <p className="max-w-2xl mx-auto text-slate-300">
+            Acoperim întregul flux de lucru, de la planificare și execuție, până la finisaje și predarea lucrării.
           </p>
         </div>
-        
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {services.map((service, index) => (
-            <div key={index} className="p-6 transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg">
-              <service.icon className="w-12 h-12 mb-4 text-yellow-600" />
+            <article
+              key={service.title}
+              className="p-6 transition border rounded-xl border-slate-800 bg-slate-900 hover:-translate-y-1 hover:border-amber-400/50"
+            >
+              <div className="flex items-start justify-between">
+                <service.icon className="w-12 h-12 mb-4 text-amber-400" />
+                <span className="text-sm font-semibold text-slate-500">0{index + 1}</span>
+              </div>
               <h3 className="mb-2 text-xl font-semibold">{service.title}</h3>
-              <p className="text-gray-600">{service.description}</p>
-            </div>
+              <p className="text-slate-300">{service.description}</p>
+            </article>
           ))}
         </div>
       </div>

@@ -1,43 +1,50 @@
 import React from 'react';
 import { HardHat, Phone, Mail, Clock } from 'lucide-react';
+import { NavLink } from 'react-router-dom';
 
 export function Header() {
+  const navItemClass = ({ isActive }: { isActive: boolean }) =>
+    `transition-colors hover:text-amber-400 ${isActive ? 'text-amber-400' : ''}`;
+
   return (
-    <header className="bg-white shadow-md">
+    <header className="sticky top-0 z-50 border-b border-slate-800 bg-slate-950/90 backdrop-blur-md">
       <div className="container px-4 mx-auto">
-        {/* Top Bar */}
-        <div className="py-2 text-sm border-b border-gray-100">
+        <div className="hidden py-2 text-sm border-b md:block border-slate-800 text-slate-300">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-6">
               <div className="flex items-center space-x-2">
-                <Phone size={16} className="text-yellow-600" />
+                <Phone size={16} className="text-amber-400" />
                 <span>+40 723 400 646</span>
               </div>
               <div className="flex items-center space-x-2">
-                <Mail size={16} className="text-yellow-600" />
+                <Mail size={16} className="text-amber-400" />
                 <span>marta70fil@yahoo.com</span>
               </div>
               <div className="flex items-center space-x-2">
-                <Clock size={16} className="text-yellow-600" />
-                <span>L - V: 07:00 - 17:00 </span>
+                <Clock size={16} className="text-amber-400" />
+                <span>L - V: 07:00 - 17:00</span>
               </div>
             </div>
           </div>
         </div>
-        
-        {/* Main Navigation */}
+
         <nav className="py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-2">
-              <HardHat size={32} className="text-yellow-600" />
-              <span className="text-2xl font-bold">MERIDIAN TRANSCONSTRUCT</span>
-            </div>
-            <div className="space-x-8">
-              <a href="#home" className="text-lg font-bold hover:text-yellow-600">Acasă</a>
-              <a href="#services" className="text-lg font-bold hover:text-yellow-600">Servicii</a>
-              <a href="#projects" className="text-lg font-bold hover:text-yellow-600">Proiecte</a>
-              <a href="#about" className="text-lg font-bold hover:text-yellow-600">Despre noi</a>
-              <a href="#contact" className="text-lg font-bold hover:text-yellow-600">Contact</a>
+          <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+            <NavLink to="/" className="inline-flex items-center space-x-2">
+              <HardHat size={32} className="text-amber-400" />
+              <span className="text-xl font-black tracking-wide md:text-2xl">MERIDIAN TRANSCONSTRUCT</span>
+            </NavLink>
+            <div className="flex flex-wrap items-center gap-4 text-sm font-semibold md:gap-8 md:text-base text-slate-300">
+              <NavLink to="/" className={navItemClass}>Acasă</NavLink>
+              <NavLink to="/servicii" className={navItemClass}>Servicii</NavLink>
+              <NavLink to="/proiecte" className={navItemClass}>Proiecte</NavLink>
+              <NavLink to="/contact" className={navItemClass}>Contact</NavLink>
+              <NavLink
+                to="/contact"
+                className="px-4 py-2 text-slate-950 rounded-md bg-amber-400 hover:bg-amber-300"
+              >
+                Cere ofertă
+              </NavLink>
             </div>
           </div>
         </nav>
