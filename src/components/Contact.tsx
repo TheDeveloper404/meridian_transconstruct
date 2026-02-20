@@ -6,7 +6,9 @@ export function Contact() {
     <section id="contact" className="py-20 bg-white">
       <div className="container px-4 mx-auto">
         <div className="mb-10 text-center">
-          <p className="mb-3 text-sm font-semibold tracking-[0.18em] uppercase text-blue-400">Contact</p>
+          <p className="inline-flex px-4 py-2 mb-4 text-sm font-semibold tracking-[0.18em] uppercase text-white rounded-full bg-blue-600">
+            Contact
+          </p>
           <h2 className="mb-4 text-3xl font-bold md:text-4xl">Hai să discutăm proiectul tău</h2>
           <p className="max-w-2xl mx-auto text-lg text-slate-600">
             Suntem pregătiți să îți oferim o evaluare rapidă, estimare de cost și pașii următori pentru execuție.
@@ -21,7 +23,7 @@ export function Contact() {
               <div className="flex items-start space-x-4">
                 <MapPin className="w-6 h-6 mt-1 text-blue-400" />
                 <div>
-                  <h4 className="text-lg font-semibold">Locația noastră</h4>
+                  <p className="inline-flex px-3 py-1 mb-2 text-xs font-semibold tracking-wider text-blue-700 uppercase rounded-full bg-blue-100">Locația noastră</p>
                   <p className="text-slate-600">Str. Horia, bl.3, Petroșani, Hunedoara</p>
                 </div>
               </div>
@@ -29,7 +31,7 @@ export function Contact() {
               <div className="flex items-start space-x-4">
                 <Phone className="w-6 h-6 mt-1 text-blue-400" />
                 <div>
-                  <h4 className="text-lg font-semibold">Telefon</h4>
+                  <p className="inline-flex px-3 py-1 mb-2 text-xs font-semibold tracking-wider text-blue-700 uppercase rounded-full bg-blue-100">Telefon</p>
                   <p className="text-slate-600">+40 723 400 646</p>
                   <p className="text-slate-600">+40 726 379 408</p>
                 </div>
@@ -38,7 +40,7 @@ export function Contact() {
               <div className="flex items-start space-x-4">
                 <Mail className="w-6 h-6 mt-1 text-blue-400" />
                 <div>
-                  <h4 className="text-lg font-semibold">Email</h4>
+                  <p className="inline-flex px-3 py-1 mb-2 text-xs font-semibold tracking-wider text-blue-700 uppercase rounded-full bg-blue-100">Email</p>
                   <p className="text-slate-600">marta70fil@yahoo.com</p>
                 </div>
               </div>
@@ -46,7 +48,7 @@ export function Contact() {
               <div className="flex items-start space-x-4">
                 <Clock className="w-6 h-6 mt-1 text-blue-400" />
                 <div>
-                  <h4 className="text-lg font-semibold">Program</h4>
+                  <p className="inline-flex px-3 py-1 mb-2 text-xs font-semibold tracking-wider text-blue-700 uppercase rounded-full bg-blue-100">Program</p>
                   <p className="text-slate-600">Luni - Vineri: 07:00 - 17:00</p>
                   <p className="text-slate-600">Sâmbătă: Cu programare</p>
                 </div>
