@@ -10,16 +10,16 @@ export function Hero() {
       backgroundImage: 'url("https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80")'
       }}
     >
-      <div className="absolute inset-0 bg-gradient-to-r from-slate-900/85 via-slate-800/60 to-blue-900/35" />
+      <div className="absolute inset-0 bg-gradient-to-r from-slate-950/88 via-slate-900/72 to-blue-950/55" />
       <div className="container relative flex items-center px-4 py-24 mx-auto min-h-[78vh]">
-        <div className="max-w-3xl mx-auto text-center">
+        <div className="max-w-3xl p-6 mx-auto text-center border rounded-2xl border-white/20 bg-slate-900/35 backdrop-blur-sm md:p-10">
           <p className="inline-flex px-4 py-2 mb-6 text-sm font-semibold tracking-wider uppercase rounded-full bg-blue-500/20 text-blue-200 ring-1 ring-blue-300/30">
             Construcții civile și comerciale
           </p>
-          <h1 className="mb-6 text-4xl font-black leading-tight md:text-6xl">
+          <h1 className="mb-6 text-4xl font-black leading-tight text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.65)] md:text-6xl">
             Construim excelență, oferim încredere.
           </h1>
-          <p className="max-w-2xl mx-auto mb-10 text-lg text-slate-200 md:text-xl">
+          <p className="max-w-2xl mx-auto mb-10 text-lg text-slate-100 drop-shadow-[0_1px_5px_rgba(0,0,0,0.6)] md:text-xl">
             De la fundație la finisaj, livrăm proiecte complete cu atenție la detaliu, respect pentru buget și termene clare.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
