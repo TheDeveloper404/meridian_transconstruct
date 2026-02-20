@@ -7,7 +7,7 @@ export function Hero() {
       id="home"
       className="relative min-h-[78vh] bg-cover bg-center"
       style={{
-      backgroundImage: 'url("https://res.cloudinary.com/dwmdxgd2z/image/upload/v1733318417/img_3_eghiaq.png")'
+      backgroundImage: 'url("https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80")'
       }}
     >
       <div className="absolute inset-0 bg-gradient-to-r from-slate-900/85 via-slate-800/60 to-blue-900/35" />
