@@ -13,7 +13,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-gradient-to-r from-slate-950/88 via-slate-900/72 to-blue-950/55" />
       <div className="container relative flex items-center px-4 py-24 mx-auto min-h-[78vh]">
         <div className="max-w-3xl p-6 mx-auto text-center border rounded-2xl border-white/20 bg-slate-900/35 backdrop-blur-sm md:p-10">
-          <p className="inline-flex px-4 py-2 mb-6 text-sm font-semibold tracking-wider uppercase rounded-full bg-blue-500/20 text-blue-200 ring-1 ring-blue-300/30">
+          <p className="inline-flex px-4 py-2 mb-6 text-sm font-semibold tracking-wider text-white uppercase rounded-full bg-blue-500/35 ring-1 ring-blue-300/30">
             Construcții civile și comerciale
           </p>
           <h1 className="mb-6 text-4xl font-black leading-tight text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.65)] md:text-6xl">
@@ -33,7 +33,7 @@ export function Hero() {
 
           <div className="grid grid-cols-1 gap-4 mt-12 sm:grid-cols-3">
             <div className="p-4 border rounded-lg border-white/40 bg-white/20 backdrop-blur-sm">
-              <p className="text-3xl font-extrabold text-blue-400">120+</p>
+              <p className="text-3xl font-extrabold text-blue-400">60+</p>
               <p className="text-sm text-white">proiecte livrate</p>
             </div>
             <div className="p-4 border rounded-lg border-white/40 bg-white/20 backdrop-blur-sm">

@@ -37,6 +37,17 @@ export function Footer() {
               <li className="text-slate-600">Planificare proiect</li>
             </ul>
           </div>
+
+          <div>
+            <h3 className="mb-4 text-lg font-semibold">Date firmă</h3>
+            <ul className="space-y-2 text-slate-600">
+              <li>Telefon: +40 723 400 646 / +40 726 379 408</li>
+              <li>Email: marta70fil@yahoo.com</li>
+              <li>Adresa: Str. Horea Bl. 3 Sc. 1 Ap. 1 Cod 332014, Loc. Petrosani, Hunedoara</li>
+              <li>CUI: 41449237</li>
+              <li>Nr. Reg. Com.: J2019001203204</li>
+            </ul>
+          </div>
           
           {/* <div>
             <h3 className="mb-4 text-lg font-semibold">Follow Us</h3>

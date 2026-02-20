@@ -30,7 +30,9 @@ export function WhyChooseUs() {
       <div className="container px-4 mx-auto">
         <div className="grid items-center grid-cols-1 gap-10 mb-12 lg:grid-cols-2">
           <div>
-            <p className="mb-3 text-sm font-semibold tracking-[0.18em] uppercase text-blue-400">De ce Meridian</p>
+            <p className="inline-flex px-4 py-2 mb-3 text-sm font-semibold tracking-[0.18em] uppercase text-white rounded-full bg-blue-600">
+              De ce Meridian
+            </p>
             <h2 className="mb-5 text-3xl font-bold leading-tight md:text-4xl">Partenerul potrivit pentru construcții civile, comerciale și renovări complete</h2>
             <p className="text-slate-600">
               Combinăm planificarea tehnică, execuția atentă și comunicarea constantă, astfel încât fiecare proiect să fie livrat la nivelul așteptărilor.
@@ -43,7 +45,7 @@ export function WhyChooseUs() {
               <p className="mt-2 text-sm text-slate-600">ani experiență activă</p>
             </div>
             <div className="p-6 border rounded-xl border-slate-200 bg-slate-50">
-              <p className="text-4xl font-extrabold text-blue-400">120+</p>
+              <p className="text-4xl font-extrabold text-blue-400">60+</p>
               <p className="mt-2 text-sm text-slate-600">proiecte finalizate</p>
             </div>
             <div className="p-6 border rounded-xl border-slate-200 bg-slate-50">
