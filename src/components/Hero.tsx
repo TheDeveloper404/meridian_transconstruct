@@ -10,7 +10,7 @@ export function Hero() {
       backgroundImage: 'url("https://res.cloudinary.com/dwmdxgd2z/image/upload/v1733318417/img_3_eghiaq.png")'
       }}
     >
-      <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-950/70 to-slate-900/50" />
+      <div className="absolute inset-0 bg-gradient-to-r from-slate-900/85 via-slate-800/60 to-blue-900/35" />
       <div className="container relative flex items-center px-4 py-24 mx-auto min-h-[78vh]">
         <div className="max-w-3xl">
           <p className="inline-flex px-4 py-2 mb-6 text-sm font-semibold tracking-wider uppercase rounded-full bg-blue-500/20 text-blue-200 ring-1 ring-blue-300/30">
@@ -26,23 +26,23 @@ export function Hero() {
             <Link to="/contact" className="px-8 py-3 font-semibold text-white transition-colors bg-blue-600 rounded-md hover:bg-blue-500">
               Haide să discutăm!
             </Link>
-            <Link to="/servicii" className="px-8 py-3 font-semibold transition-colors border rounded-md border-slate-200 hover:bg-slate-100 hover:text-slate-950">
+            <Link to="/servicii" className="px-8 py-3 font-semibold text-white transition-colors border border-white rounded-md hover:bg-white hover:text-slate-900">
               Serviciile noastre
             </Link>
           </div>
 
           <div className="grid grid-cols-1 gap-4 mt-12 sm:grid-cols-3">
-            <div className="p-4 border rounded-lg border-slate-700 bg-slate-900/60">
+            <div className="p-4 border rounded-lg border-white/40 bg-white/20 backdrop-blur-sm">
               <p className="text-3xl font-extrabold text-blue-400">120+</p>
-              <p className="text-sm text-slate-300">proiecte livrate</p>
+              <p className="text-sm text-white">proiecte livrate</p>
             </div>
-            <div className="p-4 border rounded-lg border-slate-700 bg-slate-900/60">
+            <div className="p-4 border rounded-lg border-white/40 bg-white/20 backdrop-blur-sm">
               <p className="text-3xl font-extrabold text-blue-400">5+</p>
-              <p className="text-sm text-slate-300">ani experiență</p>
+              <p className="text-sm text-white">ani experiență</p>
             </div>
-            <div className="p-4 border rounded-lg border-slate-700 bg-slate-900/60">
+            <div className="p-4 border rounded-lg border-white/40 bg-white/20 backdrop-blur-sm">
               <p className="text-3xl font-extrabold text-blue-400">24h</p>
-              <p className="text-sm text-slate-300">răspuns ofertă</p>
+              <p className="text-sm text-white">răspuns ofertă</p>
             </div>
           </div>
         </div>

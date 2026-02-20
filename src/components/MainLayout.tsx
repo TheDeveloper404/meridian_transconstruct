@@ -7,7 +7,7 @@ import { WhatsAppFloatingButton } from './WhatsAppFloatingButton';
 
 export function MainLayout() {
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100">
+    <div className="min-h-screen text-slate-900 bg-white">
       <ScrollToTop />
       <Header />
       <main>

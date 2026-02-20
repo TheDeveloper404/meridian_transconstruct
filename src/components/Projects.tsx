@@ -25,20 +25,20 @@ const projects = [
 
 export function Projects() {
   return (
-    <section id="projects" className="py-20 bg-slate-900">
+    <section id="projects" className="py-20 bg-slate-50">
       <div className="container px-4 mx-auto">
         <div className="mb-16 text-center">
           <p className="mb-3 text-sm font-semibold tracking-[0.18em] uppercase text-blue-400">Portofoliu</p>
           <h2 className="mb-4 text-3xl font-bold md:text-4xl">Proiecte finalizate. Clienți mulțumiți.
           </h2>
-          <p className="max-w-2xl mx-auto text-slate-300">
+          <p className="max-w-2xl mx-auto text-slate-600">
             Aruncă o privire la câteva dintre proiectele noastre recente de construcție, modernizare și renovare.
           </p>
         </div>
 
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
           {projects.map((project) => (
-            <article key={project.title} className="relative overflow-hidden border rounded-xl group border-slate-800">
+            <article key={project.title} className="relative overflow-hidden border rounded-xl group border-slate-200 shadow-sm">
               <img 
                 src={project.image} 
                 alt={project.title}

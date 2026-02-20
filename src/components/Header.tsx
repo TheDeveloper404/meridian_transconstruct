@@ -4,12 +4,12 @@ import { NavLink } from 'react-router-dom';
 
 export function Header() {
   const navItemClass = ({ isActive }: { isActive: boolean }) =>
-    `transition-colors hover:text-blue-400 ${isActive ? 'text-blue-400' : ''}`;
+    `transition-colors hover:text-blue-600 ${isActive ? 'text-blue-600' : 'text-slate-700'}`;
 
   return (
-    <header className="sticky top-0 z-50 border-b border-slate-800 bg-slate-950/90 backdrop-blur-md">
+    <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur-md">
       <div className="container px-4 mx-auto">
-        <div className="hidden py-2 text-sm border-b md:block border-slate-800 text-slate-300">
+        <div className="hidden py-2 text-sm border-b md:block border-slate-200 text-slate-600">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-6">
               <div className="flex items-center space-x-2">
@@ -34,7 +34,7 @@ export function Header() {
               <HardHat size={32} className="text-blue-400" />
               <span className="text-xl font-black tracking-wide md:text-2xl">MERIDIAN TRANSCONSTRUCT</span>
             </NavLink>
-            <div className="flex flex-wrap items-center gap-4 text-sm font-semibold md:gap-8 md:text-base text-slate-300">
+            <div className="flex flex-wrap items-center gap-4 text-sm font-semibold md:gap-8 md:text-base">
               <NavLink to="/" className={navItemClass}>Acasă</NavLink>
               <NavLink to="/servicii" className={navItemClass}>Servicii</NavLink>
               <NavLink to="/proiecte" className={navItemClass}>Proiecte</NavLink>
