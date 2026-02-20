@@ -34,7 +34,6 @@ export function Services() {
     <section id="services" className="py-20 bg-white">
       <div className="container px-4 mx-auto">
         <div className="mb-16 text-center">
-          <p className="mb-3 text-sm font-semibold tracking-[0.18em] uppercase text-blue-400">Servicii</p>
           <h2 className="mb-4 text-3xl font-bold md:text-4xl">Tot ce ai nevoie pentru un proiect complet</h2>
           <p className="max-w-2xl mx-auto text-slate-600">
             Acoperim întregul flux de lucru, de la planificare și execuție, până la finisaje și predarea lucrării.
@@ -45,7 +44,7 @@ export function Services() {
           {services.map((service, index) => (
             <article
               key={service.title}
-              className="p-6 transition bg-white border rounded-xl border-slate-200 shadow-sm hover:-translate-y-1 hover:border-blue-400/50"
+              className="p-6 transition bg-white border shadow-sm rounded-xl border-slate-200 hover:-translate-y-1 hover:border-blue-400/50"
             >
               <div className="flex items-start justify-between">
                 <service.icon className="w-12 h-12 mb-4 text-blue-400" />
