@@ -6,13 +6,13 @@ export function Footer() {
   return (
     <footer className="border-t border-slate-200 bg-slate-50 text-slate-900">
       <div className="container px-4 py-12 mx-auto">
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           <div>
             <div className="flex items-center mb-4 space-x-2">
               <HardHat size={32} className="text-blue-400" />
               <span className="text-2xl font-bold">Meridian Transconstruct</span>
             </div>
-            <p className="text-slate-600">
+            <p className="max-w-sm leading-relaxed text-slate-600">
               Construim excelență, oferim încredere.
             </p>
           </div>
@@ -28,19 +28,8 @@ export function Footer() {
           </div>
           
           <div>
-            <h3 className="mb-4 text-lg font-semibold">Servicii</h3>
-            <ul className="space-y-2">
-              <li className="text-slate-600">Construcții comerciale</li>
-              <li className="text-slate-600">Construcții rezidențiale</li>
-              <li className="text-slate-600">Finisaje interioare</li>
-              <li className="text-slate-600">Renovări</li>
-              <li className="text-slate-600">Planificare proiect</li>
-            </ul>
-          </div>
-
-          <div>
             <h3 className="mb-4 text-lg font-semibold">Date firmă</h3>
-            <ul className="space-y-2 text-slate-600">
+            <ul className="space-y-2 leading-relaxed text-slate-600">
               <li>Telefon: +40 723 400 646 / +40 726 379 408</li>
               <li>Email: marta70fil@yahoo.com</li>
               <li>Adresa: Str. Horea Bl. 3 Sc. 1 Ap. 1 Cod 332014, Loc. Petrosani, Hunedoara</li>
