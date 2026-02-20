@@ -3,8 +3,8 @@ import React from 'react';
 export function WhatsAppFloatingButton() {
   return (
     <div className="fixed z-50 flex items-center gap-3 right-5 bottom-5">
-      <span className="px-5 py-3 text-base font-extrabold tracking-wide text-white uppercase bg-green-600 border-2 border-white rounded-xl shadow-xl md:text-lg animate-pulse">
-        Haide sa discutam
+      <span className="px-4 py-2.5 text-sm font-semibold text-green-700 bg-white border border-green-300 rounded-xl shadow-lg md:text-base">
+        Scrie-ne pe WhatsApp
       </span>
       <a
         href="https://wa.me/40723400646?text=Haide%20sa%20discutam"

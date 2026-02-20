@@ -2,22 +2,22 @@ import React from 'react';
 
 const projects = [
   {
-    image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&q=80",
     title: "Complex de birouri modern",
     category: "Comercial"
   },
   {
-    image: "https://images.unsplash.com/photo-1613545325278-f24b0cae1224?auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1503389152951-9f343605f61c?auto=format&fit=crop&q=80",
     title: "Locuință premium",
     category: "Rezidențial"
   },
   {
-    image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1590496793929-36417d3117de?auto=format&fit=crop&q=80",
     title: "Hală industrială",
     category: "Industrial"
   },
   {
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1508450859948-4e04fabaa4ea?auto=format&fit=crop&q=80",
     title: "Reabilitare clădire administrativă",
     category: "Renovare"
   }
