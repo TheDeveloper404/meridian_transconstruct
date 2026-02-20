@@ -7,25 +7,27 @@ export function Footer() {
     <footer className="border-t border-slate-200 bg-slate-50 text-slate-900">
       <div className="container px-4 py-12 mx-auto">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-10">
-          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:pl-24 xl:pl-32">
-            <div>
-              <div className="flex items-center mb-4 space-x-2">
-                <HardHat size={32} className="text-blue-400" />
-                <span className="text-2xl font-bold">Meridian Transconstruct</span>
+          <div className="lg:flex lg:justify-end">
+            <div className="grid w-full grid-cols-1 gap-8 sm:grid-cols-2 sm:max-w-[560px]">
+              <div>
+                <div className="flex items-center mb-4 space-x-2">
+                  <HardHat size={32} className="text-blue-400" />
+                  <span className="text-2xl font-bold">Meridian Transconstruct</span>
+                </div>
+                <p className="max-w-sm leading-relaxed text-slate-600">
+                  Construim excelență, oferim încredere.
+                </p>
               </div>
-              <p className="max-w-sm leading-relaxed text-slate-600">
-                Construim excelență, oferim încredere.
-              </p>
-            </div>
 
-            <div>
-              <h3 className="mb-4 text-lg font-semibold">Navigare</h3>
-              <ul className="space-y-2">
-                <li><Link to="/" className="transition-colors text-slate-600 hover:text-blue-600">Acasă</Link></li>
-                <li><Link to="/servicii" className="transition-colors text-slate-600 hover:text-blue-600">Servicii</Link></li>
-                <li><Link to="/proiecte" className="transition-colors text-slate-600 hover:text-blue-600">Proiecte</Link></li>
-                <li><Link to="/contact" className="transition-colors text-slate-600 hover:text-blue-600">Contact</Link></li>
-              </ul>
+              <div>
+                <h3 className="mb-4 text-lg font-semibold">Navigare</h3>
+                <ul className="space-y-2">
+                  <li><Link to="/" className="transition-colors text-slate-600 hover:text-blue-600">Acasă</Link></li>
+                  <li><Link to="/servicii" className="transition-colors text-slate-600 hover:text-blue-600">Servicii</Link></li>
+                  <li><Link to="/proiecte" className="transition-colors text-slate-600 hover:text-blue-600">Proiecte</Link></li>
+                  <li><Link to="/contact" className="transition-colors text-slate-600 hover:text-blue-600">Contact</Link></li>
+                </ul>
+              </div>
             </div>
           </div>
 
