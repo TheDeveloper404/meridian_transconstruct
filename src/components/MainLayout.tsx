@@ -3,6 +3,7 @@ import { Outlet } from 'react-router-dom';
 import { Header } from './Header';
 import { Footer } from './Footer';
 import { ScrollToTop } from './ScrollToTop';
+import { WhatsAppFloatingButton } from './WhatsAppFloatingButton';
 
 export function MainLayout() {
   return (
@@ -13,6 +14,7 @@ export function MainLayout() {
         <Outlet />
       </main>
       <Footer />
+      <WhatsAppFloatingButton />
     </div>
   );
 }

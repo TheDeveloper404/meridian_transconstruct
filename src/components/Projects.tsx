@@ -28,7 +28,7 @@ export function Projects() {
     <section id="projects" className="py-20 bg-slate-900">
       <div className="container px-4 mx-auto">
         <div className="mb-16 text-center">
-          <p className="mb-3 text-sm font-semibold tracking-[0.18em] uppercase text-amber-400">Portofoliu</p>
+          <p className="mb-3 text-sm font-semibold tracking-[0.18em] uppercase text-blue-400">Portofoliu</p>
           <h2 className="mb-4 text-3xl font-bold md:text-4xl">Proiecte finalizate. Clienți mulțumiți.
           </h2>
           <p className="max-w-2xl mx-auto text-slate-300">
@@ -46,7 +46,7 @@ export function Projects() {
               />
               <div className="absolute inset-0 flex flex-col justify-end p-6 bg-gradient-to-t from-slate-950/90 to-transparent">
                 <h3 className="text-xl font-semibold text-white">{project.title}</h3>
-                <p className="font-medium text-amber-400">{project.category}</p>
+                <p className="font-medium text-blue-400">{project.category}</p>
               </div>
             </article>
           ))}

@@ -6,7 +6,7 @@ export function ProjectsPage() {
     <>
       <section className="py-16 border-b bg-slate-900 border-slate-800">
         <div className="container px-4 mx-auto">
-          <p className="mb-3 text-sm font-semibold tracking-[0.18em] uppercase text-amber-400">Pagină proiecte</p>
+          <p className="mb-3 text-sm font-semibold tracking-[0.18em] uppercase text-blue-400">Pagină proiecte</p>
           <h1 className="mb-4 text-4xl font-black">Portofoliu de proiecte livrate</h1>
           <p className="max-w-3xl text-lg text-slate-300">
             Fiecare proiect reflectă modul nostru de lucru: planificare clară, execuție riguroasă și atenție pentru detaliile de finisaj.

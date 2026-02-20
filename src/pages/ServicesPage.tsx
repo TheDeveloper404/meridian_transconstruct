@@ -6,7 +6,7 @@ export function ServicesPage() {
     <>
       <section className="py-16 border-b bg-slate-900 border-slate-800">
         <div className="container px-4 mx-auto">
-          <p className="mb-3 text-sm font-semibold tracking-[0.18em] uppercase text-amber-400">Pagină servicii</p>
+          <p className="mb-3 text-sm font-semibold tracking-[0.18em] uppercase text-blue-400">Pagină servicii</p>
           <h1 className="mb-4 text-4xl font-black">Servicii complete pentru construcții și renovări</h1>
           <p className="max-w-3xl text-lg text-slate-300">
             Lucrăm integrat, cu echipă proprie și coordonare tehnică atentă, astfel încât proiectul să fie executat corect de la început până la predare.

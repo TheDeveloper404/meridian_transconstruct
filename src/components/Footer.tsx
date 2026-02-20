@@ -9,7 +9,7 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <div className="flex items-center mb-4 space-x-2">
-              <HardHat size={32} className="text-amber-400" />
+              <HardHat size={32} className="text-blue-400" />
               <span className="text-2xl font-bold">Meridian Transconstruct</span>
             </div>
             <p className="text-slate-300">
@@ -20,10 +20,10 @@ export function Footer() {
           <div>
             <h3 className="mb-4 text-lg font-semibold">Navigare</h3>
             <ul className="space-y-2">
-              <li><Link to="/" className="transition-colors text-slate-300 hover:text-amber-400">Acasă</Link></li>
-              <li><Link to="/servicii" className="transition-colors text-slate-300 hover:text-amber-400">Servicii</Link></li>
-              <li><Link to="/proiecte" className="transition-colors text-slate-300 hover:text-amber-400">Proiecte</Link></li>
-              <li><Link to="/contact" className="transition-colors text-slate-300 hover:text-amber-400">Contact</Link></li>
+              <li><Link to="/" className="transition-colors text-slate-300 hover:text-blue-400">Acasă</Link></li>
+              <li><Link to="/servicii" className="transition-colors text-slate-300 hover:text-blue-400">Servicii</Link></li>
+              <li><Link to="/proiecte" className="transition-colors text-slate-300 hover:text-blue-400">Proiecte</Link></li>
+              <li><Link to="/contact" className="transition-colors text-slate-300 hover:text-blue-400">Contact</Link></li>
             </ul>
           </div>
           
