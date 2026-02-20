@@ -7,7 +7,7 @@ export function Footer() {
     <footer className="border-t border-slate-200 bg-slate-50 text-slate-900">
       <div className="container px-4 py-12 mx-auto">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-10">
-          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:pl-10 xl:pl-16">
             <div>
               <div className="flex items-center mb-4 space-x-2">
                 <HardHat size={32} className="text-blue-400" />

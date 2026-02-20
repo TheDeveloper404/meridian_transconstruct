@@ -1,21 +1,11 @@
 import React from 'react';
-import { useEffect, useState } from 'react';
 
 export function WhatsAppFloatingButton() {
-  const [showLabel, setShowLabel] = useState(true);
-
-  useEffect(() => {
-    const timer = window.setTimeout(() => setShowLabel(false), 5000);
-    return () => window.clearTimeout(timer);
-  }, []);
-
   return (
     <div className="fixed z-50 flex items-center gap-3 right-5 bottom-5">
-      {showLabel && (
-        <span className="px-3 py-2 text-sm font-semibold text-white bg-slate-900 rounded-lg shadow-lg animate-pulse">
-          Haide sa discutam
-        </span>
-      )}
+      <span className="px-5 py-3 text-base font-extrabold tracking-wide text-white uppercase bg-green-600 border-2 border-white rounded-xl shadow-xl md:text-lg animate-pulse">
+        Haide sa discutam
+      </span>
       <a
         href="https://wa.me/40723400646?text=Haide%20sa%20discutam"
         target="_blank"
